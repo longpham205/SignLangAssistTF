@@ -30,14 +30,16 @@ pip install -r requirements.txt
 
 2. Train mô hình
     2.1. Sign To Text
+   
         - Chạy file train_chars.py để huấn luyện images kí tự tĩnh:     
             python sign_to_text\src\main\train_chars.py
         - Chạy file train_chars.py để huấn luyện video từ động:         
             python sign_to_text\src\main\train_videos.py
         - Có thể tải kết quả train tham khảo rồi lưu vào checkponit\ :
 
-3. Test mô hình
+4. Test mô hình
     3.1. Sign To Text
+   
         - Chạy file infer.py để test cả mô hình: 
             python sign_to_text\src\main\infer.py
         - Chạy file infer.py để test nhận diện images kí tự tĩnh: 
