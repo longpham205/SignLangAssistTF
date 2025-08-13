@@ -45,7 +45,7 @@ Mở termial
         - Chạy file infer.py để test cả mô hình: 
             python sign_to_text\src\main\infer.py
         - Chạy file infer.py để test nhận diện images kí tự tĩnh: 
-            python sign_to_text\src\main\infer_char.py
+            python sign_to_text\tests\infer_char.py
         - Chạy file infer.py để test nhận diện video từ động : 
-            python sign_to_text\src\main\infer.py
+            python sign_to_text\tests\infer.py
 
