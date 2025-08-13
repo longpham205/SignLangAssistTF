@@ -4,20 +4,20 @@ Mở termial
 
 //Trỏ tới thư mục dự án
 
-cd <Nơi lưu dự án>\SignLangAssistTF
+    cd <Nơi lưu dự án>\SignLangAssistTF
 
 //Tạo môi trường ảo
 
-python -m venv venv
+    python -m venv venv
 
 // Chạy môi trường ảo
 
-.\venv\Scripts\Activate.ps1 
+    .\venv\Scripts\Activate.ps1 
 
 //Tải thư viện 
 
-pip install -r requirements.txt
-
+    pip install -r requirements.txt
+    
 === Hướng chẫn chạy mô hình ===
 
 1. Tạo data
