@@ -1,0 +1,56 @@
+# Môi trường ảo Python
+venv/
+.env/
+.venv/
+
+# Python cache và file biên dịch
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# TensorFlow checkpoints và models lớn
+checkpoint/
+*.h5
+saved_model/
+results/
+
+# Dữ liệu lớn - dataset video, ảnh
+sign_to_text/dataset/train/videos/
+sign_to_text/dataset/train/char/
+sign_to_text/dataset/val/videos/
+sign_to_text/dataset/val/char/
+
+# Logs
+*.log
+*.out
+*.err
+
+# IDE / Editor config
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Build / phân phối
+build/
+dist/
+*.egg-info/
+
+# Hệ điều hành Windows
+Thumbs.db
+Desktop.ini
+
+# Cache của pytest, mypy, pip
+.pytest_cache/
+.mypy_cache/
+pip-log.txt
+
+# TensorBoard logs hoặc các thư mục log khác
+runs/
+
+# macOS
+.DS_Store
